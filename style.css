@@ -1,0 +1,172 @@
+*{
+ padding: 0;
+ margin: 0;
+}
+.container-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 4rem;
+   
+}
+.container{
+    
+}
+img{
+    height: 8rem;
+    width: 8rem;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+button{
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+}
+.spspng{
+height: 10.5rem;
+width: 10.5rem;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.spspng:hover{
+    cursor: pointer;
+    background-color: rgb(15, 13, 17);
+}
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 3rem;
+
+}
+.scoreUser{
+font-size: 2.5rem;
+
+}
+.p{
+    font-size: 2.5rem;
+   display: flex;
+   justify-content: center;
+}
+
+.footer{
+    background-color: brown;
+    padding: 0.8rem;
+    display: inline;
+    border-radius: 10%;
+    font-size: 1.5rem;
+    
+}
+.output{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    
+}
+.scoreBoard{
+  
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+.scoreCom .scoreUser{
+    font-size: 2.5rem;
+    
+}
+.scoreUser{
+    display: flex;
+    justify-content: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+
+}
+.refresh{
+    height: 2rem;
+    width: 5.5rem;
+    background-color: brown;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+
+}
+.refreshes{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+@media only screen and (max-width: 700px) {
+    .spspng{
+        height: 7rem;
+        width: 7rem;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        }
+        img{
+            height: 5rem;
+            width: 5rem;
+        }
+        .container-child{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            margin-top: 3rem;
+           
+        }
+        button{
+            border-radius: 50%;
+            height: 7rem;
+            width: 7rem;
+        }
+        .scoreBoard{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+             font-size: 2.5rem;
+             margin-top: 0.2rem;
+             gap: 1rem;
+         }
+         .footer{
+            background-color: brown;
+            padding: 0.8rem;
+            display: inline;
+            border-radius: 10%;
+            font-size: 1.3rem;
+            
+        }
+        .refresh{
+            height: 2rem;
+            width: 5.5rem;
+            background-color: rgb(205, 205, 205);
+            border-radius: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.3rem;
+            padding: 1rem;
+        
+        }
+  }
